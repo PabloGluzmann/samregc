@@ -95,7 +95,3 @@ MIT License. See [LICENSE](LICENSE) for details.
 - Related Stata commands: `checkrob`, `multivrs`
 
 ---
-
-*Please cite the authors if you use `samregc` in published work.*
-
-=====================================
