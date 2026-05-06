@@ -14,10 +14,10 @@
 
 ## Installation
 
-To install `samregc` from GitHub in Stata, use:
+To install `samregc` in Stata, use:
 
 ```
-net install samregc, from("https://raw.githubusercontent.com/PabloGluzmann/samregc/main/")
+ssc install samregc
 ```
 
 Or download the `.ado` and `.sthlp` files and copy them to your Stata `PLUS` directory.
@@ -99,17 +99,3 @@ MIT License. See [LICENSE](LICENSE) for details.
 *Please cite the authors if you use `samregc` in published work.*
 
 =====================================
-The standard route: GitHub → Zenodo → DOI
-
-Zenodo (operated by CERN and backed by OpenAIRE) is the most widely accepted mechanism in academia.
-
-Step 1: Prepare your repository
-
-Before minting a DOI, make sure the repo has:
-
-a clear README.md
-a license (LICENSE) — preferably MIT, GPL, Apache, etc.
-an authorship file (CITATION.cff) (strongly recommended)
-tagged releases (v1.0.0, etc.)
-
-GitHub now natively supports CITATION.cff, which improves citation metadata.
