@@ -30,7 +30,7 @@ Run a sensitivity analysis on the coefficient for `main`, iterating over `svar1`
 . samregc depvar main, iterateover(svar1 svar2)
 ```
 
-This will automatically run all combinations of the main variable plus each subset of the iteration variables, saving results to `samregc.dta` (Stata data) and summary tables/plots to `samregc.xlsx` and .gph files.
+This will automatically run all combinations of the main variable plus each subset of the iteration variables, saving results to `samregc.dta` (Stata data) and summary tables/plots to `samregc.xlsx` and `.gph` files.
 
 ### Example
 
@@ -97,3 +97,19 @@ MIT License. See [LICENSE](LICENSE) for details.
 ---
 
 *Please cite the authors if you use `samregc` in published work.*
+
+=====================================
+The standard route: GitHub → Zenodo → DOI
+
+Zenodo (operated by CERN and backed by OpenAIRE) is the most widely accepted mechanism in academia.
+
+Step 1: Prepare your repository
+
+Before minting a DOI, make sure the repo has:
+
+a clear README.md
+a license (LICENSE) — preferably MIT, GPL, Apache, etc.
+an authorship file (CITATION.cff) (strongly recommended)
+tagged releases (v1.0.0, etc.)
+
+GitHub now natively supports CITATION.cff, which improves citation metadata.
