@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "samregc"
+type: software
+
+authors:
+  - family-names: "Gluzmann"
+    given-names: "Pablo"
+    orcid: "https://orcid.org/0000-0001-6570-383X"
+    affiliation: "CEDLAS, Universidad Nacional de La Plata (UNLP)/CONICET"
+
+  - family-names: "Panigo"
+    given-names: "Demian"
+    orcid: "https://orcid.org/0000-0003-2468-1632"
+    affiliation: "Instituto Malvinas Argentinas, Universidad Nacional de La Plata (UNLP)/CONICET"
+
+version: "1.0.1"
+date-released: "2026-05-04"
+
+repository-code: "https://github.com/PabloGluzmann/samregc"
+url: "https://github.com/PabloGluzmann/samregc"
+
+license: "MIT"
+
+keywords:
+  - "Stata"
+  - "econometrics"
+  - "model selection"
+  - "subset regression"
+  - "all-subsets regression"
+
+abstract: >
+  SAMREGC is a Stata package designed to enhance robustness and sensitivity
+  analyses for regression coefficients by systematically performing subset
+  regressions. It improves upon existing tools by introducing methods to
+  distinguish between sample variation and omitted-variable/collinearity effects
+  through the samesample and sisters options. The ncomb() option enables
+  targeted combinational analyses of control variables instead of exhaustive
+  all-subsets approaches, expanding the practical number of manageable testing
+  variables beyond the approximately 25-variable limit of existing alternatives.
+  The griterateover() option further enhances flexibility by iterating over
+  conceptually related groups of variables, reducing computational complexity
+  while preserving theoretical coherence. In addition, SAMREGC provides
+  diagnostic tables and graphical outputs that improve interpretability by
+  identifying the control variables with the strongest impact on the robustness
+  of the coefficients of interest.
