@@ -1,6 +1,8 @@
 # samregc
 
-**samregc** is a Stata package for robust and systematic sensitivity analysis of regression coefficients. It performs all-subset regression analyses to assess how coefficient estimates change as different combinations of covariates are included or excluded from the model. This approach allows researchers to transparently evaluate the robustness of their findings.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20071674.svg)](https://doi.org/10.5281/zenodo.20071674)
+
+**samregc** is a Stata package for robust and systematic sensitivity analysis of regression coefficients. It performs all-subset regression analyses to assess how coefficient estimates change as diffe[...]
 
 ## Features
 
@@ -30,7 +32,7 @@ Run a sensitivity analysis on the coefficient for `main`, iterating over `svar1`
 . samregc depvar main, iterateover(svar1 svar2)
 ```
 
-This will automatically run all combinations of the main variable plus each subset of the iteration variables, saving results to `samregc.dta` (Stata data) and summary tables/plots to `samregc.xlsx` and `.gph` files.
+This will automatically run all combinations of the main variable plus each subset of the iteration variables, saving results to `samregc.dta` (Stata data) and summary tables/plots to `samregc.xlsx` a[...]
 
 ### Example
 
@@ -95,3 +97,4 @@ MIT License. See [LICENSE](LICENSE) for details.
 - Related Stata commands: `checkrob`, `multivrs`
 
 ---
+
